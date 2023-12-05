@@ -1,0 +1,19 @@
+{
+  "project": {
+    "Name" : "Project X",
+    "Number" : 1,
+    "Location" : "Bellarie",
+    "Worker": [
+      {
+        "SSN" : 123456789,
+        "Last-name": "Smith",
+        "Hours": 32.5
+      },
+      {
+        "SSN" : 435435435,
+        "First-name": "Joyce",
+        "Hours": 20
+      }
+    ]
+  }
+}
