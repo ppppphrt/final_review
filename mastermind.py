@@ -37,7 +37,8 @@ class Mastermind:
         correct_number = 0
         tempo_code = self.secret_code.copy()
         tempo_guess = guess[:] # [:] เป็นการ copy โดยใช้ slicing
-
+        print(tempo_code)
+        print(tempo_guess)
         # checking correct number (ถูกเลข ไม่ถูกตำแหน่ง)
         for i in range(self.position):
             if tempo_guess[i] == tempo_code:
@@ -69,5 +70,7 @@ class Mastermind:
 
 
 playing_game = Mastermind(6,4)
-playing_game.playing()
-playing_game.dump_game()
+guess = playing_game.users_guess()
+# playing_game.playing()
+# playing_game.dump_game()
+playing_game.hint(guess)
