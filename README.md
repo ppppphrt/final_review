@@ -47,17 +47,17 @@ print(python_obj)
 
 # 4. เวลาเราจะ convert code จาก procederul code ไปเป็น OOP มีข้อควรระวังอะไรบ้าง
 
-   Identifying Classes:
+    Identifying Classes:
     Properly identifying and defining classes is foundational. Break down the procedural code into logical units and encapsulate related data        and behavior into appropriate classes.
 
     Encapsulation:
     Ensure effective encapsulation by using access modifiers to control the visibility of class members. This helps in hiding internal details       and providing a clear interface for interacting with objects.
 
-   Inheritance vs. Composition:
+    Inheritance vs. Composition:
      Understand when to use inheritance and when to favor composition. Avoid creating overly complex class hierarchies and choose the approach         that best models the relationships between classes.
 
-   Refactoring:
-   Incrementally refactor the codebase. Gradually convert procedural functions into methods within classes to maintain a working codebase while     transitioning to OOP.
+    Refactoring:
+    Incrementally refactor the codebase. Gradually convert procedural functions into methods within classes to maintain a working codebase while     transitioning to OOP.
 
 
 # 5. วิธีเขียน file csv
