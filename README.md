@@ -1,6 +1,6 @@
-Final Review 
+ ## Final Review 
 
-1.การใช้lamda
+# 1.การใช้lamda
 
 case 1 (filter ปกติ) : print('#1: What player on a team with “ia” in the team name played less than 200 minutes and made more than 100 passes? Select to display the player surname, team, and position')
 print()
@@ -17,7 +17,7 @@ avg_below_10 = ranking_below_ten.aggregate(lambda x: sum(x)/len(x), 'games')
 #game คือ col นึงที่อยู่ใน Team.csv file 
 
 
-2.วิธีเปิดไฟล์ csv
+# 2.วิธีเปิดไฟล์ csv
 import csv
 
 with open('test.csv' , mode = 'r') as f:
@@ -28,7 +28,7 @@ with open('test.csv' , mode = 'r') as f:
     for i in csvFile:
         print(i)
 
-3.วิธีอ่าน  + เขียน ไฟล์ json 
+# 3.วิธีอ่าน  + เขียน ไฟล์ json 
 
 import json
 #dump ข้อมูลเข้าไป
@@ -37,7 +37,7 @@ python_obj = {'name': 'John', 'age': 30}
 with open('books.json', 'w') as file:
     json.dump(python_obj, file)
 
-# load ข้อมูลออกมา
+load ข้อมูลออกมา
 
 with open('books.json', 'r') as file:
     python_obj = json.load(file)
@@ -45,7 +45,7 @@ print(python_obj)
  
 
 
-4. เวลาเราจะ convert code จาก procederul code ไปเป็น OOP มีข้อควรระวังอะไรบ้าง
+# 4. เวลาเราจะ convert code จาก procederul code ไปเป็น OOP มีข้อควรระวังอะไรบ้าง
 
    Identifying Classes:
     Properly identifying and defining classes is foundational. Break down the procedural code into logical units and encapsulate related data        and behavior into appropriate classes.
@@ -60,7 +60,7 @@ print(python_obj)
    Incrementally refactor the codebase. Gradually convert procedural functions into methods within classes to maintain a working codebase while     transitioning to OOP.
 
 
-6. วิธีเขียน file csv
+# 5. วิธีเขียน file csv
 import csv
 
 data = [{'name': 'Alice', 'age': 30}, {'name': 'Bob', 'age': 25}]
