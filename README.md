@@ -117,3 +117,28 @@ fetch and merge any commits from the tracking remote branch
 
 ### git rebase [branch]
 apply any commits of current branch ahead of specified one
+
+
+#Function เพิ่มเติม
+
+### strip()
+-  ใช่สำหรับลบ white space
+   my_string = "   Hello, world!   "
+stripped_string = my_string.strip() 
+  
+print(stripped_string)  -> Hello, world!
+
+
+### map()
+- ใช่รวม item ต่างๆให้เข้ากับ function
+  numbers = (1, 2, 3, 4)
+  result = map(lambda x: x + x, numbers)
+  print(list(result)) -> [2,4,6,8]
+
+### index()
+- ใช้หา index 
+
+  #List of fruits  
+  fruits = ["apple", "banana","cherry","apple"] 
+  #Searching index of apple 
+  print(fruits.index("apple")) -> 0
