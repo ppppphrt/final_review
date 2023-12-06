@@ -12,7 +12,7 @@ class MM:
     def generate_secret_code(self):
         import random
 
-        self.secret_code  =[]
+        self.secret_code = []
         for i in range(self.position):
             code = random.randint(1,self.number)
             self.secret_code.append(code)

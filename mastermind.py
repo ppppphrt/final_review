@@ -49,7 +49,7 @@ class Mastermind:
             elif tempo_guess[i] in self.secret_code:
                 correct_position += 1
 
-        return '*' * correct_position + 'o' * correct_number
+        return '*' * correct_position + 'o' * correct_number #คืนค่าให้คนที่เรียก
 
     def dump_game(self):  # สำหรับคนเล่นที่กดยอมแพ้
         if not self.game_over:
@@ -71,6 +71,6 @@ class Mastermind:
 
 playing_game = Mastermind(6,4)
 guess = playing_game.users_guess()
-# playing_game.playing()
-# playing_game.dump_game()
+playing_game.playing()
+playing_game.dump_game()
 playing_game.hint(guess)
