@@ -119,7 +119,7 @@ fetch and merge any commits from the tracking remote branch
 apply any commits of current branch ahead of specified one
 
 
-#Function เพิ่มเติม
+# Function เพิ่มเติม
 
 ### strip()
 -  ใช่สำหรับลบ white space
@@ -142,3 +142,7 @@ print(stripped_string)  -> Hello, world!
   fruits = ["apple", "banana","cherry","apple"] 
   #Searching index of apple 
   print(fruits.index("apple")) -> 0
+
+
+# อย่า ลืม
+  ใช้ for loop เสมอ เวลาจะ update value or checking value .
